@@ -1,0 +1,52 @@
+/* style.css — very minimal */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f6f8fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 420px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px 24px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+
+h1 { margin-top: 0;font-size: 20px; }
+
+label { display:block; margin-top: 12px; font-weight:600; font-size:13px; }
+input {
+  width:100%;
+  padding:10px 8px;
+  margin-top:6px;
+  box-sizing:border-box;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+
+select {
+  width:100%;
+  padding:10px 8px;
+  margin-top:6px;
+  box-sizing:border-box;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+
+button {
+  margin-top:16px;
+  padding:10px 14px;
+  border:none;
+  background: blue;
+  color:#fff;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.flash .msg { padding:8px; margin-bottom:8px; border-radius:6px; }
+.flash .error { background: #ffe6e6; color:#822; border:1px solid #f2c2c2; }
+.btn { display:inline-block; margin-top:12px; text-decoration:none; color:#2b8aef; font-weight:600; }

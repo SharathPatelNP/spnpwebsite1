@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Vendor Form</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Register Vendor</h1>
+
+    <form method="post">
+      <label for="name">Name</label>
+      <input id="name" name="name" required>
+
+      <label for="city">City</label>
+      <input id="city" name="city" required>
+
+      <label for="state">State</label>
+      <input id="state" name="state" required>
+
+      <label for="phone">Phone</label>
+      <input id="phone" name="phone" required>
+
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+
+      <button type="submit">Save</button>
+    </form>
+  </div>
+</body>
+</html>
+
